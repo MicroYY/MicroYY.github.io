@@ -2,7 +2,7 @@
 title: 上海天文馆游览笔记
 author: Double Young
 date: 2024-08-26 23:45:00 +0800
-categories: [扯]
+categories: [特蓝星游览指南]
 tags: [天文, 宇宙, 科学, 展览]
 render_with_liquid: false
 ---
