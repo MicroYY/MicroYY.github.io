@@ -2,7 +2,7 @@
 title: blog reborn
 author: Double Young
 date: 2024-07-30 20:12:00 +0800
-categories: [计算机科学]
+categories: [技术笔记]
 tags: [GitHub Pages, jekyll, chirpy, blog]
 render_with_liquid: false
 ---
