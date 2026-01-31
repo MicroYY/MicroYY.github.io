@@ -1,0 +1,21 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+body {
+  letter-spacing: 0.01em;
+}
+
+.post-content {
+  line-height: 1.8;
+}
+
+.topbar {
+  backdrop-filter: saturate(180%) blur(12px);
+}
