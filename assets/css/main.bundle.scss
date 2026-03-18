@@ -1,0 +1,27 @@
+:root {
+	--brand-accent: #4f46e5;
+	--brand-accent-contrast: #ffffff;
+}
+
+body {
+	letter-spacing: 0.01em;
+}
+
+.topbar {
+	backdrop-filter: saturate(180%) blur(12px);
+}
+
+.post-content {
+	line-height: 1.8;
+}
+
+.btn-primary {
+	background-color: var(--brand-accent);
+	border-color: var(--brand-accent);
+	color: var(--brand-accent-contrast);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	filter: brightness(0.95);
+}
