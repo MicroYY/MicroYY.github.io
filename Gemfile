@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-#source "https://rubygems.org"
-source "https://gems.ruby-china.com"
+source "https://rubygems.org"
+#source "https://gems.ruby-china.com"
 
 gem "jekyll-theme-chirpy", "~> 7.4", ">= 7.4.1"
 
