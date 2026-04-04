@@ -1,0 +1,48 @@
+<svg width="960" height="460" viewBox="0 0 960 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="460" rx="24" fill="#FAF7F2"/>
+  <rect x="36" y="36" width="888" height="388" rx="20" fill="#FFFDFC" stroke="#E7DED2" stroke-width="2"/>
+
+  <line x1="120" y1="360" x2="860" y2="360" stroke="#8A8178" stroke-width="2"/>
+  <line x1="160" y1="390" x2="160" y2="72" stroke="#8A8178" stroke-width="2"/>
+
+  <polygon points="160,360 320,245 320,140 760,70 760,360" fill="#E8F1FB" fill-opacity="0.65" stroke="#4B78A8" stroke-width="3"/>
+  <line x1="320" y1="140" x2="320" y2="360" stroke="#4B78A8" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="760" y1="70" x2="760" y2="360" stroke="#4B78A8" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <line x1="160" y1="360" x2="610" y2="150" stroke="#C76B50" stroke-width="3"/>
+  <circle cx="610" cy="150" r="7" fill="#C76B50"/>
+  <circle cx="320" cy="285" r="6" fill="#1D8A6E"/>
+
+  <line x1="320" y1="285" x2="320" y2="360" stroke="#1D8A6E" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="610" y1="150" x2="610" y2="360" stroke="#C76B50" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <line x1="160" y1="402" x2="320" y2="402" stroke="#5C5550" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <line x1="160" y1="384" x2="610" y2="384" stroke="#5C5550" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+
+  <text x="94" y="373" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="22">Camera</text>
+  <text x="172" y="92" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="22">y</text>
+  <text x="838" y="352" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="22">d</text>
+
+  <text x="300" y="125" fill="#315A82" font-family="Segoe UI, Arial, sans-serif" font-size="22">Near plane (d = n)</text>
+  <text x="700" y="55" fill="#315A82" font-family="Segoe UI, Arial, sans-serif" font-size="22">Far plane (d = f)</text>
+  <text x="536" y="136" fill="#A94E35" font-family="Segoe UI, Arial, sans-serif" font-size="24">P(y, d)</text>
+  <text x="264" y="274" fill="#136952" font-family="Segoe UI, Arial, sans-serif" font-size="24">Pₙ(yₙ, n)</text>
+  <text x="210" y="300" fill="#136952" font-family="Segoe UI, Arial, sans-serif" font-size="18">intersection with near plane</text>
+
+  <text x="214" y="396" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="20">n</text>
+  <text x="375" y="378" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="20">d</text>
+  <text x="328" y="330" fill="#136952" font-family="Segoe UI, Arial, sans-serif" font-size="20">yₙ</text>
+  <text x="618" y="268" fill="#A94E35" font-family="Segoe UI, Arial, sans-serif" font-size="20">y</text>
+
+  <text x="550" y="406" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="24">Similar triangles: yₙ / n = y / d</text>
+  <text x="70" y="70" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">Perspective Projection Geometry (Y-D slice)</text>
+
+  <defs>
+    <marker id="arrowEnd" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#5C5550"/>
+    </marker>
+    <marker id="arrowStart" markerWidth="12" markerHeight="12" refX="2" refY="6" orient="auto">
+      <path d="M12,0 L0,6 L12,12 Z" fill="#5C5550"/>
+    </marker>
+  </defs>
+</svg>

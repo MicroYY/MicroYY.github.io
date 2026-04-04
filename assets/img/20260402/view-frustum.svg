@@ -1,0 +1,58 @@
+<svg width="920" height="520" viewBox="0 0 920 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="520" rx="24" fill="#F7F3EC"/>
+  <rect x="28" y="28" width="864" height="464" rx="20" fill="#FFFDF9" stroke="#E4DBCF" stroke-width="2"/>
+
+  <text x="64" y="84" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">View Frustum</text>
+
+  <circle cx="160" cy="290" r="7" fill="#4A453F"/>
+  <text x="88" y="322" fill="#3F3A36" font-family="Segoe UI, Arial, sans-serif" font-size="22">camera</text>
+
+  <line x1="160" y1="290" x2="318" y2="290" stroke="#91877D" stroke-width="2.2"/>
+  <line x1="318" y1="290" x2="555" y2="290" stroke="#91877D" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="555" y1="290" x2="804" y2="290" stroke="#91877D" stroke-width="2.2"/>
+  <text x="810" y="296" fill="#665D56" font-family="Segoe UI, Arial, sans-serif" font-size="18">view direction</text>
+
+  <line x1="160" y1="290" x2="280" y2="234" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="160" y1="290" x2="356" y2="214" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="160" y1="290" x2="356" y2="366" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="160" y1="290" x2="280" y2="346" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+
+  <line x1="160" y1="290" x2="460" y2="150" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="160" y1="290" x2="650" y2="100" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="160" y1="290" x2="650" y2="480" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="160" y1="290" x2="460" y2="430" stroke="#BCC4CB" stroke-width="2" stroke-dasharray="7 7"/>
+
+  <ellipse cx="500" cy="434" rx="210" ry="24" fill="#E7E0D6" fill-opacity="0.55"/>
+
+  <polygon points="280,234 356,214 650,100 460,150" fill="#EEF4F8" fill-opacity="0.95"/>
+  <polygon points="356,214 356,366 650,480 650,100" fill="#D8E3EB" fill-opacity="0.72"/>
+  <polygon points="280,234 356,214 356,366 280,346" fill="#DEE8EF" fill-opacity="0.95"/>
+  <polygon points="460,150 650,100 650,480 460,430" fill="#CCD8E2" fill-opacity="0.56"/>
+  <polygon points="280,234 356,214 650,100 460,150 460,430 650,480 356,366 280,346" fill="#E6EEF4" fill-opacity="0.5"/>
+
+  <line x1="280" y1="234" x2="356" y2="214" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="356" y1="214" x2="356" y2="366" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="356" y1="366" x2="280" y2="346" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="280" y1="346" x2="280" y2="234" stroke="#5A7A91" stroke-width="2.2"/>
+
+  <line x1="280" y1="234" x2="460" y2="150" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="356" y1="214" x2="650" y2="100" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="356" y1="366" x2="650" y2="480" stroke="#5A7A91" stroke-width="2.2"/>
+
+  <line x1="460" y1="150" x2="650" y2="100" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="650" y1="100" x2="650" y2="480" stroke="#5A7A91" stroke-width="2.2"/>
+
+  <line x1="460" y1="150" x2="460" y2="430" stroke="#9AA9B5" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="460" y1="430" x2="650" y2="480" stroke="#5A7A91" stroke-width="2.2"/>
+  <line x1="280" y1="346" x2="460" y2="430" stroke="#5A7A91" stroke-width="2.2"/>
+
+  <circle cx="318" cy="290" r="4.5" fill="#6B879B"/>
+  <circle cx="555" cy="290" r="4.5" fill="#6B879B"/>
+  <line x1="160" y1="290" x2="318" y2="290" stroke="#6B879B" stroke-width="2.2"/>
+  <line x1="318" y1="290" x2="555" y2="290" stroke="#6B879B" stroke-width="2" stroke-dasharray="7 7"/>
+  <text x="246" y="194" fill="#45657B" font-family="Segoe UI, Arial, sans-serif" font-size="22">near plane</text>
+  <text x="548" y="86" fill="#45657B" font-family="Segoe UI, Arial, sans-serif" font-size="22">far plane</text>
+
+  <text x="64" y="430" fill="#665D56" font-family="Segoe UI, Arial, sans-serif" font-size="20">The dashed lines are the camera rays.</text>
+  <text x="64" y="456" fill="#665D56" font-family="Segoe UI, Arial, sans-serif" font-size="20">The solid volume between the near and far planes is the actual frustum.</text>
+</svg>
