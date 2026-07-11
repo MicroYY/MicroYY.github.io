@@ -29,6 +29,9 @@ url: "https://microyy.github.io"
 github:
   username: MicroYY # change to your GitHub username
 
+twitter:
+  username: shadeofflower
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -37,6 +40,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/MicroYY # change to your GitHub homepage
+    - https://x.com/shadeofflower
     - https://weibo.com/traveler1
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
