@@ -5,6 +5,10 @@ author: Double Young
 
 categories: [技术笔记]
 tags: [Codex, OpenAI, GPT, 代理, Windows, Electron, Rust]
+description: "分析 Codex Desktop、Rust app-server 与 Chromium 的网络路径，配置仅作用于 Codex 的代理方案并绕过 localhost。"
+image:
+  path: /assets/img/site/social-preview.png
+  alt: 不具名的站点分享图
 
 pin: false
 math: false

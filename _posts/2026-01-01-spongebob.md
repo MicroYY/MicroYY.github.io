@@ -3,7 +3,7 @@ title: 海绵宝宝：深海大冒险
 author: Double Young
 date: 2026-01-01 20:00:00 +0800
 categories: [扯, 影评]
-tags: [海绵宝宝， 海绵宝宝剧场版，派大星]
+tags: [海绵宝宝, 海绵宝宝剧场版, 派大星]
 render_with_liquid: false
 ---
 

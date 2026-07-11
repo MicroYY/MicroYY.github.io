@@ -37,6 +37,7 @@ social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Double Young
   email: jianhuyy@hotmail.com # change to your email address
+  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/MicroYY # change to your GitHub homepage
@@ -105,10 +106,17 @@ avatar: assets/img/favicons/favicon.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/img/site/social-preview.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
+
+actions:
+  # Display "Edit this post" action on each post page to encourage contributions.
+  edit_post:
+    enabled: false
+    url: ""
+    static_url: false
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
