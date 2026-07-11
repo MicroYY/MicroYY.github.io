@@ -16,10 +16,11 @@ timezone: Asia/Shanghai
 
 title: 不具名的站点 # the main title
 
-tagline: 哒哒哒 # it will display as the subtitle
+tagline: 技术、图形学与旅行笔记 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Double Young 的个人博客，记录计算机图形学、软件开发与工具实践，
+  以及旅行、展览和日常见闻。
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,7 +30,7 @@ github:
   username: MicroYY # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # fill in your Twitter/X username if available
 
 social:
   # Change to your full name.
@@ -38,7 +39,6 @@ social:
   email: jianhuyy@hotmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/MicroYY # change to your GitHub homepage
     - https://weibo.com/traveler1
     # Uncomment below to add more social links
