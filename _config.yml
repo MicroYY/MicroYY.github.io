@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: 不具名的站点 # the main title
 
-tagline: 技术、图形学与旅行笔记 # it will display as the subtitle
+tagline: 偶尔写代码，偶尔去远方 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Double Young 的个人博客，记录计算机图形学、软件开发与工具实践，
